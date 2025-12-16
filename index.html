@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bonch Eturma | 4th Year IT Student & Creative Technologist specializing in scalable web solutions.">
+    <title>Bonch Eturma | Software Engineer</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preload" href="js/script.js" as="script">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main portfolio navigation">
+            <a href="#hero" class="nav-logo">BE.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+        <section id="hero" class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="content-wrapper">
+                    <h1 id="hero-title" class="hero-title">
+                        <span class="greeting" data-animate="slide-in">Hello, I'm</span>
+                        <span class="hero-name" data-animate="slide-in-2">Bonch Eturma.</span>
+                    </h1>
+                    <p class="hero-role" data-animate="fade-in">4th Year Information Technology Student</p>
+                    
+                    <p class="hero-tagline" data-animate="fade-in">
+                        <span id="animated-tagline" 
+                            data-taglines='["Building performant web architecture.", "Focused on elegant problem-solving.", "Ready to transition into software projects."]'>
+                        </span>
+                    </p>
+                    
+                    <div class="hero-actions" data-animate="fade-in-2">
+                        <a href="#projects" class="btn btn-primary">View Work</a>
+                        <a href="#contact" class="btn btn-secondary">Connect</a>
+                    </div>
+                    
+                    <div class="hero-location" data-animate="fade-in-3">
+                        <span aria-hidden="true">📍</span> Cebu City, Philippines
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section reveal" aria-labelledby="about-title">
+            <div class="container">
+                <div class="content-wrapper">
+                    <h2 id="about-title" class="section-title">About & Philosophy</h2>
+                    <div class="about-content">
+                        <p>
+                            I am a 4th-year Bachelor of Science in Information Technology student with a relentless focus on software craftsmanship. My work is driven by the belief that the best digital solutions are those that are scalable, performant, and intuitive.
+                        </p>
+                        <p>
+                            My specialization lies in full-stack web architecture, bridging efficient backend systems (PHP/MySQL) with accessible, standards-compliant frontend code (HTML/CSS/Vanilla JS). I approach every challenge not just as a task, but as an opportunity to architect an elegant solution.
+                        </p>
+                        <p>
+                            I value precision, collaboration, and continuous learning. As I prepare to transition from academia, I am eager to contribute my hands-on experience and growth mindset to a demanding engineering environment where complexity is solved with clarity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section reveal" aria-labelledby="skills-title">
+            <div class="container">
+                <h2 id="skills-title" class="section-title">Technical Expertise</h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Frontend Systems</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item" data-level="95"><span class="skill-name">HTML5 / Semantics</span></li>
+                            <li class="skill-item" data-level="90"><span class="skill-name">CSS3 / Layout</span></li>
+                            <li class="skill-item" data-level="80"><span class="skill-name">Vanilla JavaScript</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Backend Architecture</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item" data-level="85"><span class="skill-name">PHP</span></li>
+                            <li class="skill-item" data-level="75"><span class="skill-name">MySQL / SQL</span></li>
+                            <li class="skill-item" data-level="70"><span class="skill-name">RESTful APIs</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Practices & Tools</h3>
+                        <ul class="skill-list">
+                            <li class="skill-item" data-level="90"><span class="skill-name">Git / Workflow</span></li>
+                            <li class="skill-item" data-level="85"><span class="skill-name">Performance / UX</span></li>
+                            <li class="skill-item" data-level="75"><span class="skill-name">Accessibility (WCAG)</span></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="skill-bar-container" aria-hidden="true">
+                    <div class="skill-bar-track"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section reveal" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title">Selected Work</h2>
+                <div class="projects-grid">
+                    
+                    <article class="project-card" tabindex="0">
+                        <h3 class="project-title">Scalable API Gateway</h3>
+                        <p class="project-description">Architected a foundational REST API for high-throughput e-commerce operations, focusing on robust data validation and security.</p>
+                        <ul class="project-tech-list" aria-label="Technologies used">
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                            <li>Data Modeling</li>
+                        </ul>
+                        <a href="#" class="project-link" aria-label="View Scalable API Gateway Project">View Documentation</a>
+                    </article>
+
+                    <article class="project-card" tabindex="0">
+                        <h3 class="project-title">WCAG-First Portfolio Template</h3>
+                        <p class="project-description">A commitment to accessibility, building a fully navigable, keyboard-friendly portfolio using strict semantic HTML and ARIA standards.</p>
+                        <ul class="project-tech-list" aria-label="Technologies used">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>WCAG 2.1</li>
+                        </ul>
+                        <a href="#" class="project-link" aria-label="View WCAG-First Portfolio Template Project">View Repository</a>
+                    </article>
+
+                    <article class="project-card" tabindex="0">
+                        <h3 class="project-title">Vanilla JS Data Visualizer</h3>
+                        <p class="project-description">A client-side application for rendering dynamic data charts and graphs without relying on heavy external charting libraries.</p>
+                        <ul class="project-tech-list" aria-label="Technologies used">
+                            <li>Vanilla JS</li>
+                            <li>HTML Canvas</li>
+                            <li>DOM Manipulation</li>
+                        </ul>
+                        <a href="#" class="project-link" aria-label="View Vanilla JS Data Visualizer Project">View Demo</a>
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact reveal" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="content-wrapper">
+                    <h2 id="contact-title" class="section-title">Let's Connect</h2>
+                    <p class="contact-intro">
+                        I am currently seeking challenging junior engineering and internship roles where I can apply my skills in scalable architecture and high-performance frontend systems.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email:</span>
+                            <a href="mailto:bonch.eturma.dev@gmail.com" class="contact-link">bonch.eturma.dev@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location:</span>
+                            <span class="contact-value">Cebu City, Philippines</span>
+                        </div>
+                    </div>
+                    <div class="contact-actions">
+                        <a href="mailto:bonch.eturma.dev@example.com" class="btn btn-primary">Start a Dialogue</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p class="footer-text">&copy; 2025 Bonch Eturma.</p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js" defer></script>
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "d12d0576-3820-4613-b94f-75729b1edc6b",
+            apiHost: "https://cloud.flowiseai.com",
+        })
+    </script>
+    
+</body>
+</html>
